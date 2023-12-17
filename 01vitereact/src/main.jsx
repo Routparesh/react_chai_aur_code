@@ -3,16 +3,18 @@ import ReactDOM from 'react-dom/client'
 // import App from './App'
 import './main.css'
 
+import Card from '../src/components/Card'
+
 // const anotherElement = (
 //   <a href="https://google.com" target='__blank'> visit Google </a>
 // )
 
-const reactElement = React.createElement(
-  'a',
-  { 'href': 'https://facebook.com', 'target': '_blank' },
-  'Click to open'
-);
+// const reactElement = React.createElement(
+//   'a',
+//   { 'href': 'https://facebook.com', 'target': '_blank' },
+//   'Click to open'
+// );
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    reactElement   
+    <Card/>  
 )
